@@ -111,7 +111,7 @@ const checkRow = () => {
 		flipTile()
 		console.log('Guess is ' + guess, 'Wordle is ' + wordle)
 		if (wordle == guess) {
-			showMessage('Allison, You stole my HEART!')
+			showMessage('You win! The Wordle was: Heart!')
 			isGameOver = true
 			return
 		} else {
@@ -132,7 +132,7 @@ const showMessage = (message) => {
 	const messageElement = document.createElement('p') 
 	messageElement.textContent = message
 	messageDisplay.append(messageElement)
-	setTimeout(() => messageDisplay.removeChild(messageElement), 6000)
+//	setTimeout(() => messageDisplay.removeChild(messageElement), 6000)
 }
 
 const addColorToKey = (keyLetter, color) => {

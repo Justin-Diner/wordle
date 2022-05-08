@@ -9,7 +9,7 @@
   }
   
 body {
-	background-color: #9b0606;
+	background-color: #1900ff;
 }
 
 .game-container {
@@ -77,7 +77,7 @@ body {
 }
 
 .message-container p {
-	background-color: #ff0000;
+	background-color: #000000;
 	border-radius: 10px;
 	padding: 10px;
 	margin: 0;
