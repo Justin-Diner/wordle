@@ -5,4 +5,4 @@ This is created using vanilla JavaScript. It can be taken further by connecting 
 
 Currently, all content is hard-coded. 
 
-Check the working version at www.justindiner.com/wordle.
+Check the working version at https://www.justindiner.com/projects/wordle/index.html.
