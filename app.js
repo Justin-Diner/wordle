@@ -2,7 +2,7 @@ const tileDisplay = document.querySelector('.tile-container');
 const keyboard = document.querySelector('.key-container');
 const messageDisplay = document.querySelector('.message-container');
 
-const wordle = 'HEART';
+const wordle = 'CODES';
 
 const keys = [
     'Q',
@@ -111,7 +111,7 @@ const checkRow = () => {
 		flipTile()
 		console.log('Guess is ' + guess, 'Wordle is ' + wordle)
 		if (wordle == guess) {
-			showMessage('You win! The Wordle was: Heart!')
+			showMessage('You win! The Wordle was: Codes!')
 			isGameOver = true
 			return
 		} else {
